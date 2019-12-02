@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat&display=swap");
+
+:root {
+  --logoFont: "Bebas Neue", cursive;
+  --mainFont: "Montserrat", sans-serif;
+
+  --bannerColor: #42bcf5;
+  --otherBanner: #dbf8f5;
+  --navColor: #262622;
+  --brightColor: #fcd703;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--mainFont);
+}
+
+/* Header & Nav */
+
+.navbar {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  width: 100vw;
+  height: 5vh;
+  margin-top: 1em;
+}
+
+.nav {
+  list-style: none;
+}
+
+.logo {
+  margin: 1em;
+  font-family: var(--logoFont);
+  font-size: 2.5em;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: 100vw;
+  height: 100vh;
+  background: url(./botanical-cactus-close-up-decor-305821.jpg) center/cover
+    no-repeat;
+}
+
+.product-cont {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  height: 100%;
+}
+.product-desc {
+  width: 50vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5em;
+  height: 100vh;
+}
+
+.product-title {
+  font-family: var(--logoFont);
+  font-size: 5em;
+}
+.product-text {
+  margin-bottom: 2vh;
+}
+
+.notify-btn {
+  text-decoration: none;
+  font-family: var(--mainFont);
+  width: 100px;
+  text-align: center;
+  /* margin: 2em; */
+  background: none;
+  color: var(--navColor);
+  border-radius: 10px;
+  border: none;
+}
+.notify-btn:hover {
+  color: #ffffff;
+}
+
+.notify-email {
+  width: 20vw;
+}
+
+.notify {
+  background: var(--brightColor);
+  display: flex;
+  height: 3vh;
+  border-radius: 10px;
+}
